@@ -756,7 +756,13 @@ svg.play-icon {
   opacity: 1;
 }
 
+.service-post img {
+  transition: opacity 0.3s ease-in-out;
+}
 
+.service-post img.hover {
+  opacity: 0;
+}
 
 /*----------------------------------------------*/
 /* 5 PAGES STYLE */
