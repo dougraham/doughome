@@ -628,6 +628,16 @@ a.nav-link:hover {
   }
 }
 
+.doug-one {
+	background-image:url("images/service1.jpg");
+		width: 25vw;
+		height: 20vw;
+	background-size:cover;
+}
+
+.doug-one:hover {
+	background-image: url("images/giphy.gif");
+}
 
 /* 4.2 Banner Section
 /*----------------------------------------------*/
