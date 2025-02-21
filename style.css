@@ -668,14 +668,14 @@ a.nav-link:hover {
 }
 
 .doug-three {
-	background-image:url("images/dontcroakborder.png");
+	/*ckground-image:url("images/dontcroakborder.png");*/
 	width: 26vw;
 	height: 19vw;
 	background-size: contain;
 }
 
 .doug-two {
-	background-image:url("images/hoseborder.png");
+	/*ckground-image:url("images/hoseborder.png");*/
 	width: 27vw;
 	height: 20vw;
 	background-size: contain;
