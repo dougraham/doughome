@@ -64,7 +64,7 @@ CSS STRUCTURE:
 /** 1. VARIABLES
 --------------------------------------------------------------*/
 :root {
-  --primary-color: #E54521;
+  --primary-color: #101010;
   --secondary-color: #05213C;
   --black-color: #1F1F1F;
   --light-black-color: #444444;
@@ -86,6 +86,9 @@ CSS STRUCTURE:
 :root {
   --heading-font: "Roboto", sans-serif;
   --body-font: "Roboto", sans-serif;
+	font-family: poster-cut-neue, sans-serif;
+font-style: normal;
+font-weight: 400;
 }
 
 /*----------------------------------------------*/
@@ -112,7 +115,7 @@ body {
   font-weight: 400;
   line-height: 164%;
   letter-spacing: 0.8px;
-  color: var(--body-color);
+ color: var(--body-color);
   margin: 0;
 }
 
@@ -206,15 +209,26 @@ a:hover {
 --------------------------------------------------------------*/
 h1,
 h2,
-h3,
+h3 {
+	 color: var(--black-color);
+  font-family: var(--heading-font);
+  text-transform: uppercase;
+  font-style:italic;
+  font-weight: 700;
+}
 h4,
 h5,
 h6 {
   color: var(--black-color);
-  font-family: var(--heading-font);
+  font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
   text-transform: uppercase;
-  font-style: italic;
-  font-weight: 700;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+}
+
+.projects-txt {
+	font-style: italic;
 }
 
 h5,
@@ -410,6 +424,17 @@ h6 {
   background-color: var(--bs-gray-300);
 }
 
+.myNav {
+	
+font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color: #000000;
+}
+
+	.h5 {
+			font-size: 50px;
+		}
+
+
 /* Breadcrumb
 ------------------------------------------------------------- */
 .breadcrumb-item+.breadcrumb-item::before {
@@ -423,8 +448,8 @@ h6 {
 .pagination {
   --bs-pagination-color: var(--black-color);
   --bs-pagination-hover-color: #fff;
-  --bs-pagination-hover-bg: var(--primary-color);
-  --bs-pagination-hover-border-color: var(--primary-color);
+  --bs-pagination-hover-bg: #000000;
+  --bs-pagination-hover-border-color: #000000;
   --bs-pagination-focus-color: #fff;
   --bs-pagination-focus-bg: var(--primary-color);
   --bs-pagination-focus-box-shadow: none;
@@ -584,12 +609,12 @@ a.nav-link {
 }
 
 a.nav-link:focus {
-  color: var(--light-black-color);
+  color: #A39191;
 }
 
 a.nav-link.active,
 a.nav-link:hover {
-  color: var(--primary-color) !important;
+  color: #000000 !important;
   outline: none;
 }
 
@@ -629,15 +654,47 @@ a.nav-link:hover {
 }
 
 .doug-one {
-	background-image:url("images/service1.jpg");
-		width: 25vw;
+	background-image:url("images/bumper.png");
+		width: 27vw;
 		height: 20vw;
-	background-size:cover;
+	background-size: contain;
+}
+
+.doug-four {
+	background-image:url("images/misc.png");
+	width: 27vw;
+	height: 20vw;
+	background-size: contain;
+}
+
+.doug-three {
+	background-image:url("images/dontcroak.png");
+	width: 27vw;
+	height: 20vw;
+	background-size: contain;
+}
+
+.doug-two {
+	background-image:url("images/hosethumbnail.png");
+	width: 27vw;
+	height: 20vw;
+	background-size: contain;
 }
 
 .doug-one:hover {
-	background-image: url("images/giphy.gif");
+	/*background-image: url("images/giphy.gif"); */
 }
+
+.myNav {
+	font-size: 55px;
+	color: aqua;
+}
+
+.services {
+	margin-left: 100px;
+}
+
+.nav-link
 
 /* 4.2 Banner Section
 /*----------------------------------------------*/
@@ -654,6 +711,10 @@ a.nav-link:hover {
   height: auto;
   min-width: 100%;
   min-height: 100%;
+}
+
+.projects-txt {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
 }
 
 .banner-content {
@@ -766,13 +827,7 @@ svg.play-icon {
   opacity: 1;
 }
 
-.service-post img {
-  transition: opacity 0.3s ease-in-out;
-}
 
-.service-post img.hover {
-  opacity: 0;
-}
 
 /*----------------------------------------------*/
 /* 5 PAGES STYLE */

@@ -82,21 +82,6 @@
         });
       });
 
-      document.addEventListener('DOMContentLoaded', function() {
-  const img = document.querySelector('.service-post img');
-  const originalSrc = img.src;
-  const hoverSrc = img.getAttribute('data-hover');
-
-  img.addEventListener('mouseover', function() {
-    img.src = hoverSrc;
-  });
-
-  img.addEventListener('mouseout', function() {
-    img.src = originalSrc;
-  });
-});
-
-
       // Filter items on button click
       $('.filter-button').click(function () {
         var filterValue = $(this).attr('data-filter');
