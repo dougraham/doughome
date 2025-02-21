@@ -654,28 +654,28 @@ a.nav-link:hover {
 }
 
 .doug-one {
-	background-image:url("images/bumper.png");
-		width: 27vw;
-		height: 20vw;
+	background-image:url("images/bubonoborder.png");
+		width: 25vw;
+		height: 19vw;
 	background-size: contain;
 }
 
 .doug-four {
-	background-image:url("images/misc.png");
+	background-image:url("images/miscborder.png");
 	width: 27vw;
 	height: 20vw;
 	background-size: contain;
 }
 
 .doug-three {
-	background-image:url("images/dontcroak.png");
-	width: 27vw;
-	height: 20vw;
+	background-image:url("images/dontcroakborder.png");
+	width: 26vw;
+	height: 19vw;
 	background-size: contain;
 }
 
 .doug-two {
-	background-image:url("images/hosethumbnail.png");
+	background-image:url("images/hoseborder.png");
 	width: 27vw;
 	height: 20vw;
 	background-size: contain;
