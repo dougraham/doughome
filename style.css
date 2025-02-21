@@ -653,32 +653,33 @@ a.nav-link:hover {
   }
 }
 
+
 .doug-one {
-	/*ckground-image:url("images/bubonoborder.png");*/
+	/*ckground-image:url("images/bubonoborder.png");
 		width: 25vw;
 		height: 19vw;
-	background-size: contain;
+	background-size: contain;*/
 }
 
 .doug-four {
-	/*ckground-image:url("images/miscborder.png");*/
+	/*ckground-image:url("images/miscborder.png");
 	width: 27vw;
 	height: 20vw;
-	background-size: contain;
+	background-size: contain;*/
 }
 
 .doug-three {
-	/*ckground-image:url("images/dontcroakborder.png");*/
+	/*ckground-image:url("images/dontcroakborder.png");
 	width: 26vw;
 	height: 19vw;
-	background-size: contain;
+	background-size: contain;*/
 }
 
 .doug-two {
-	/*ckground-image:url("images/hoseborder.png");*/
+	/*ckground-image:url("images/hoseborder.png");
 	width: 27vw;
 	height: 20vw;
-	background-size: contain;
+	background-size: contain;*/
 }
 
 .doug-one:hover {
