@@ -654,14 +654,14 @@ a.nav-link:hover {
 }
 
 .doug-one {
-	background-image:url("images/bubonoborder.png");
+	/*ckground-image:url("images/bubonoborder.png");*/
 		width: 25vw;
 		height: 19vw;
 	background-size: contain;
 }
 
 .doug-four {
-	background-image:url("images/miscborder.png");
+	/*ckground-image:url("images/miscborder.png");*/
 	width: 27vw;
 	height: 20vw;
 	background-size: contain;
