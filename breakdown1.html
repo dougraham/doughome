@@ -52,6 +52,15 @@
 				
 		}
 		
+		.overview {
+			
+			position: relative;
+			padding: 280px;
+			margin-left: auto;
+			margin-right: auto;
+			
+		}
+		
 		.breakdownpage {
 			position:relative;
 			padding-left: 280px;
@@ -61,27 +70,39 @@
 		
 		.image1 {
 			
+			position:relative;
 			padding: 40px;
-			padding-left: 150px;
-			padding-right: 150px;
+			padding-left:auto;
+			padding-right:auto;
 		}
 	
 		.image2 {
 			
 			padding: 40px;
-			padding-left: 250px;
-			padding-right: 250px;
+			padding-left: auto;
+			padding-right: auto;
 		}
 		
 		
 		.image3 {
 			
 			padding: 40px;
-			padding-left: 100px;
-			padding-right: 100px;
+			padding-left: auto;
+			padding-right: auto;
 			
 			
 		}
+		
+		.image4 {
+			
+			padding: 40px;
+			padding-left: auto;
+			padding-right: auto;
+			
+			
+		}
+
+		
 		
 		
 	</style>
@@ -241,7 +262,7 @@
   </svg>
 	
 	<header>
-    <img src="images/DAGTitle1.png" width="1700" alt=""/> </header>
+    <img src="images/DAGTitle1.png" width="1200" alt=""/> </header>
 	
   <img src="images/line1.png" width="1920" height="76" alt=""/>
 
@@ -345,7 +366,10 @@
 		</section>
 		<section id="BB-intro">
 		
-		<p>You can check out the game's official page<a class="nav-link p-0" href="#bubono-bumperland.github.io">HERE</a></p>
+		<p>You can check out the game's official page</p>
+			
+			
+			<a class="nav-link p-0" href="#bubono-bumperland.github.io">HERE</a>
 		</section>
 		
 		<br>
@@ -353,13 +377,13 @@
 		<br>
 		
 		<section class="table-of-contents">
-		<p>Overview</p>
+		<a href="#overview"> Overview</a>
 			<br>
-			<p>Concept</p>
+			<a href = "#concept"> Concept </a>
 		<br>
-			<p>Automotive Engineering</p>
+			<a href="auto-Eng"> Automotive Engineering </a>
 			<br>
-			<p>Anti-crumple zone</p>
+			<a href="anti-crumple-zone"> Anti-Crumple-Zone </a>
 		</section>
      
     </div>
@@ -368,6 +392,15 @@
 	
   <section class="overview">
 	
+	  <p>
+	  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎This project was developed over the cource of twenty weeks with a team of five people. I was the lead designer, project manager, and assistant programmer. We used Unreal Engine 5.5, Blender, Maya 2024, Houdini, and Adobe Substance Painter. 
+	  
+    <div class="team-photo">
+	  
+      <img src="images/bumpyRideTeam.jpg" width="571" alt=""/> </div>
+	  
+	  
+	  </p>
 	
 	
 	</section>
@@ -427,7 +460,40 @@ Image of the team
 	
 	<div class="anti-crumple-zone">
 	
+	<p>
+		
+	‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎Through this idea, bumping was designed to accentuate this principle. I spent a long time trying to actually program the bumping physics so that bumping into walls actually sent the car at a proper reflection angle. There were many different ways I could have this but we ended up relying exclusively on Launch Character to propel the car according to a certain vector upon impact. </p>
+		
+		<br>
+		
+		<div>
+		<!-- image -->
+		</div>
+		
+		<p>
+		
+		‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎This was a long and tedious learning experience, and my results were giving me a lot of trouble in terms of sending at an actually accurate angle. During my first attempts at brute forcing, I settled on creating entirely square bumping walls, and manually setting the reflection angle depending on which side of the square you hit. I was determining the vector of reflection with a line trace and would Get Reflection Vector with the Break Hit Result, but I was having a lot of trouble getting this vector to be dynamically accurate on all sides of a wall, so I instead compromised by having the car calculate a specific kind of reflection angle based on the side of the wall you hit, which seemed to do the trick for now. 
+
+			<br>
+			<br>
+			
+	‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎This is an early graphic I made for my team when set dressing our early blockouts, showing just how complex I had already made a simple mechanic.
+			
+	  <div class="image4">
+		
+        <img src="images/bumpdiagram.png" width="673" alt=""/> 
+		
+		</div>
+
+		<br>
+			
+	  <div>
+		
+		
+				
+		</div>
 	
+	</p>
 	
 	
 	
