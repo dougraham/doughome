@@ -654,11 +654,8 @@ a.nav-link:hover {
 }
 
 
-.doug-one {
-	/*ckground-image:url("images/bubonoborder.png");
-		width: 25vw;
-		height: 19vw;
-	background-size: contain;*/
+
+	
 }
 
 .doug-four {
@@ -683,8 +680,17 @@ a.nav-link:hover {
 }
 
 .doug-one:hover {
+	/*
 	background-image: url("images/Bumperland-Preview2.gif"); 
+	width: 100%;
+	*/
 }
+
+.border-one:hover {
+	
+	
+}
+
 
 .myNav {
 	font-size: 55px;
@@ -693,6 +699,12 @@ a.nav-link:hover {
 
 .services {
 	margin-left: 100px;
+}
+
+.social {
+	
+	
+	
 }
 
 .nav-link
