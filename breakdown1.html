@@ -15,6 +15,8 @@
 	
 		body {
 			background-image: url("images/horpaper.png");
+			overflow-x: hidden;
+			
 		}
 		
 		.projects {
@@ -41,6 +43,11 @@
 			
 			
 		}
+		
+		.myImage {
+			 text-align: center;
+			
+		}
 	
 		.breakdown {
 			
@@ -59,6 +66,7 @@
 			padding-left: 5%;
 			padding-right: 5%;
 			line-height: 1.2;
+			
 			
 		}
 		
@@ -249,43 +257,26 @@
   <img src="images/line1.png" width="1920" height="76" alt=""/>
 
 <header id="header" class="position-absolute m-md-4 rounded-3 z-1">
-	
   <nav id="primary-header" class="navbar navbar-expand-lg py-2 px-xl-3">
-      <div class="container-fluid">
-       
-        <button class="navbar-toggler border-0 d-flex d-lg-none order-3 p-2 shadow-none" type="button"
-          data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false">
-          <svg class=" text-white" width="60" height="60">
-            <use xlink:href="#navbar-icon"></use>
-          </svg>
-        </button>
-        <div class="header-bottom offcanvas offcanvas-end" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel">
-         <!-- <div class="offcanvas-header px-4 pb-0 mt-3">
-            <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"
-              data-bs-target="#bdNavbar"></button>
-          </div> -->
-			
-			<div class="myNav">
-          <div class="offcanvas-body align-items-center justify-content-end">
-            <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item px-4">
-                <a class="nav-link active p-0" aria-current="page" href="index.html">Home</a>
-             
-              <li class="nav-item px-4">
-                <a class="nav-link p-0" href="#index">About</a>
-              </li>
-              
-        
+    <div class="container-fluid">
+      
+      <!-- This was the toggle button – removed -->
 
-              
-              
-            </ul>
-          </div>
-		</div>
-        </div>
+      <!-- No offcanvas menu – replaced with normal nav items -->
+      <div class="collapse navbar-collapse show">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item px-4">
+            <a class="nav-link active p-0" aria-current="page" href="index.html"><h1>Home</h1></a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link p-0" href="#about"><h1>About</h1></a>
+          </li>
+        </ul>
       </div>
-    </nav>
-  </header>
+      
+    </div>
+  </nav>
+</header>
 	
 	<br>
 	<br>
@@ -395,9 +386,9 @@
 	  <br>
 	  
   </section>
-    <div>
+    <div class = "myImage">
 	  
-      <img src="images/bumpyRideTeam.jpg" width="100%" alt=""/> </div>
+      <img src="images/bumpyRideTeam.jpg" width="70%" alt=""/> </div>
 	  
 	  
 	  
@@ -413,8 +404,8 @@
 	<p style="font-size:1.6vw;">
 		‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ The idea for Bubono’s Bumperland started as my friend and I’s desire to mimic the fun she experienced in Tiny Terry’s Turbo Trip, in which you play as an unemployed creature who is inexplicably given permission to drive a car around town to “make money”. We wanted to create the fun of being able to drive around, bump off of things, and knock things over in a less-GTA style fashion, and more of a lighthearted tone.</p>
 	
-	<div class="image1">
-	<img src="images/tinyTerry.jpg" width="100%" alt=""/>
+	<div class="myImage">
+	<img src="images/tinyTerry.jpg" width="70%" alt=""/>
 	</div>
 	
 	  <br>
@@ -429,8 +420,8 @@ Image of the team
 	‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ My initial pitch was to create a rogue-like run-and gun where as you smash through enemies with your car in an attempt to escape the park, you can gain different special moves to attach to your car, and by the time you reach the end of the level, the special ability you get will correlate with the specific enemy type you killed the most of. </p>
 	
 	
-	<div class="image2">
-	<img src="images/concept.png" width="100%" alt=""/>
+	<div class="myImage">
+	<img src="images/concept.png" width="70%" alt=""/>
 	</div>
 	  
 	  <br>
@@ -459,9 +450,9 @@ Image of the team
 	  <br>
 
 	
-	<div class="image3">
+	<div class="myImage">
 	
-	<img src="images/drivingaround.gif" width="100%" alt=""/>
+	<img src="images/drivingaround.gif" width="70%" alt=""/>
 	</div>
 	
 		<br>
@@ -493,9 +484,9 @@ Image of the team
 		
 		
 		
-		<div class="image4">
+		<div class="myImage">
 		
-	    <img src="images/replaceCode.JPG" width="100%" alt=""/> </div>
+	    <img src="images/replaceCode.JPG" width="70%" alt=""/> </div>
 		
 		<br>
 		
@@ -508,9 +499,9 @@ Image of the team
 			
 	‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎This is an early graphic I made for my team when set dressing our early blockouts, showing just how complex I had already made a simple mechanic.
 			
-	  <div class="image5">
+	  <div class="myImage">
 		
-        <img src="images/bumpdiagram.png" width="100%" alt=""/> 
+        <img src="images/bumpdiagram.png" width="70%" alt=""/> 
 		
 		</div>
 
@@ -530,9 +521,9 @@ Image of the team
 		
 		<br>
 		
-		<div class="image6">
+		<div class="myImage">
 		
-	    <img src="images/collision.png" width="100%" alt=""/> </div>
+	    <img src="images/collision.png" width="70%" alt=""/> </div>
 		
 		<br>
 		
@@ -547,9 +538,9 @@ Image of the team
 		
 		<br>
 		
-		<div class="image7">
+		<div class="myImage">
 		
-	    <img src="images/linetrace.png" width="100%" alt=""/>
+	    <img src="images/linetrace.png" width="70%" alt=""/>
 		
 		</div>
 		
@@ -568,9 +559,9 @@ Image of the team
 		
 		<br>
 		
-		<div class="image8">
+		<div class="myImage">
 		
-	    <img src="images/correcttrace.png" width="100%" alt=""/> 
+	    <img src="images/correcttrace.png" width="70%" alt=""/> 
 		
 		</div>
 		
@@ -611,9 +602,9 @@ Image of the team
 		<br>
 		
 		
-		<div>
+		<div class="myImage">
 		
-	    <img src="images/bumping.gif" width="570" alt=""/>
+	    <img src="images/bumping.gif" width="70%" alt=""/>
 	
 	</div>
 	
@@ -630,9 +621,9 @@ Image of the team
 	
 	<br>
 	
-	<div>
+	<div class="myImage">
 	
-    <img src="images/speeddiagram.png" width="100%" alt=""/> </div>
+    <img src="images/speeddiagram.png" width="70%" alt=""/> </div>
 	
 	<br>
 	
@@ -658,9 +649,9 @@ Image of the team
 	
 	<br>
 	
-	<div>
+	<div class="myImage">
 	
-    <img src="images/mud1.gif" width="100%" alt=""/> </div>
+    <img src="images/mud1.gif" width="70%" alt=""/> </div>
 	
 	<br>
 		<br>
@@ -689,9 +680,9 @@ Image of the team
 		
 		<br>
 	
-	<div>
+	<div class="myImage">
 		
-    <img src="images/conceptart.png" width="100%" alt=""/> </div>
+    <img src="images/conceptart.png" width="70%" alt=""/> </div>
 		
 		<br>
 	
@@ -717,9 +708,9 @@ Image of the team
 	
 	<br>
 	
-	<div>
+	<div class = "myImage">
 	
-    <img src="images/bubonoportraits.png" width="100%" alt=""/> </div>
+    <img src="images/bubonoportraits.png" width="70%" alt=""/> </div>
 	
 	<br>
 	
@@ -734,9 +725,9 @@ Image of the team
 		
 		<br>
 	
-	<div>
+	<div class="myImage">
 	
-    <img src="images/oldhouse.png" width="100%" alt=""/> </div>
+    <img src="images/oldhouse.png" width="70%" alt=""/> </div>
 	
 	
 	<br>
@@ -753,10 +744,10 @@ Image of the team
 
 	<br>
 	
-	<div>
+	<div class ="myImage">
 	
 	
-    <img src="images/blockout.png" width="100%" alt=""/> </div>
+    <img src="images/blockout.png" width="70%" alt=""/> </div>
 	
 	<br>
 	
@@ -818,9 +809,9 @@ Image of the team
 	
 	<br>
 	
-	<div>
+	<div class = "myImage">
 	
-    <img src="images/communicationart.png" width="100%" alt=""/> </div>
+    <img src="images/communicationart.png" width="70%" alt=""/> </div>
 		
 		<br>
 	
@@ -837,7 +828,7 @@ Image of the team
 	
 	<div>
 	
-    <img src="images/communicationprogramming.png" width="100%" alt=""/> </div>
+    <img src="images/communicationprogramming.png" width="70%" alt=""/> </div>
 	
 	<br>
 	
@@ -863,9 +854,9 @@ Image of the team
 	
 	<br>
 	
-	<div>
+	<div class="myImage">
 	
-    <img src="images/sprintsheet.png" width="100%" alt=""/> </div>
+    <img src="images/sprintsheet.png" width="70%" alt=""/> </div>
 	
 	<br>
 	
@@ -914,17 +905,17 @@ Image of the team
 	
 	<br>
 	
-	<div>
+	<div class = "myImage">
 	
-    <img src="images/perforce2.png" width="100%" alt=""/> 
+    <img src="images/perforce2.png" width="70%" alt=""/> 
 	
 	</div>
 	
 	<br>
 	
-	<div>
+	<div class="myImage">
 	
-    <img src="images/perforce1.png" width="100%" alt=""/> </div>
+    <img src="images/perforce1.png" width="70%" alt=""/> </div>
 	
 	<br>
 	
@@ -962,9 +953,9 @@ Image of the team
 		
 		<br>
 	
-	<div>
+	<div class = "myImage">
 	
-  <img src="images/blockout2.png" width="100%" alt=""/> 
+  <img src="images/blockout2.png" width="70%" alt=""/> 
 	
 	</div>
 		
@@ -991,9 +982,9 @@ Image of the team
 		
 		<br>
 		
-		<div>
+		<div class = "myImage">
 		
-	  <img src="images/assetanimations.gif" width="100%" alt=""/> 
+	  <img src="images/assetanimations.gif" width="70%" alt=""/> 
 	  
 	  </div>
 	  
@@ -1009,9 +1000,9 @@ Image of the team
 	  
 	  <br>
 	  
-	  <div>
+	  <div class = "myImage">
 	  
-      <img src="images/spedometer.png" width="100%" alt=""/> 
+      <img src="images/spedometer.png" width="70%" alt=""/> 
 	  
 	  </div>
 		
@@ -1038,9 +1029,9 @@ Image of the team
 	  
 	  <br>
 	  
-	  <div>
+	  <div class = "myImage">
 	  
-      <img src="images/1light.png" width="100%" alt=""/> 
+      <img src="images/1light.png" width="70%" alt=""/> 
 	  
 	  </div>
 	  
@@ -1056,9 +1047,9 @@ Image of the team
 	  
 	  <br>
 	  
-	  <div>
+	  <div class = "myImage">
 	  
-      <img src="images/3lights.png" width="100%" alt=""/> 
+      <img src="images/3lights.png" width="70%" alt=""/> 
 	  
 	  </div>
 	  
@@ -1074,9 +1065,9 @@ Image of the team
 	  
 	  <br>
 	  
-	  <div>
+	  <div class = "myImage">
 	  
-      <img src="images/outline.png" width="100%" alt=""/>
+      <img src="images/outline.png" width="70%" alt=""/>
 	  
 	  </div>
 	  
@@ -1092,9 +1083,9 @@ Image of the team
 	  
 	  <br>
 	  
-	  <div>
+	  <div class = "myImage">
 	  
-      <img src="images/emoteeffects.gif" width="100%" alt=""/>
+      <img src="images/emoteeffects.gif" width="70%" alt=""/>
 	  
 	  </div>
 	  
@@ -1110,9 +1101,9 @@ Image of the team
 	  
 	  <br>
 	  
-	  <div>
+	  <div class = "myImage">
 	  
-      <img src="images/assetanimations.gif" width="100%" alt=""/> 
+      <img src="images/assetanimations.gif" width="70%" alt=""/> 
 	  
 	  </div>
 	  
@@ -1128,9 +1119,9 @@ Image of the team
 	  
 	  <br>
 	  
-	  <div>
+	  <div class = "myImage">
 	  
-      <img src="images/UIanimations.gif" width="100%" alt=""/>
+      <img src="images/UIanimations.gif" width="70%" alt=""/>
 	  
 	  </div>
 	  
@@ -1146,9 +1137,9 @@ Image of the team
 	  
 	  <br>
 	  
-	  <div>
+	  <div class = "myImage">
 	  
-      <img src="images/comboShowcase2.gif" width="100%" alt=""/> </div>
+      <img src="images/comboShowcase2.gif" width="70%" alt=""/> </div>
 	  
 	  <br>
 		
@@ -1162,9 +1153,9 @@ Image of the team
 	  
 	  <br>
 	  
-	  <div>
+	  <div class = "myImage">
 	  
-      <img src="images/comboShowcase.gif" width="100%" alt=""/> </div>
+      <img src="images/comboShowcase.gif" width="70%" alt=""/> </div>
 	  
 	  <br>
 	  
