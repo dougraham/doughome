@@ -56,8 +56,9 @@
 		
 		.breakdownpage {
 			position:relative;
-			padding-left: 20%;
-			padding-right: 20%;
+			padding-left: 5%;
+			padding-right: 5%;
+			line-height: 1.2;
 			
 		}
 		
@@ -350,7 +351,7 @@
 		<p>You can check out the game</p>
 			
 			
-			<a class="nav-link p-0" href="#https://breadpanpan.itch.io/dont-croak">HERE</a>
+			<a class="nav-link p-0" href="https://breadpanpan.itch.io/dont-croak">HERE</a>
 		</section>
 		
 		<br>
@@ -380,8 +381,9 @@
   <section class="oview" id="overview">
 	
 	  <div class="p1">
+		  <p style="font-size:1.6vw;">
 	  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎Don’t Croak was made by a team of four people I led over the course of ten weeks, and the core idea was to make a puzzle platformer taking inspiration from games like Pikmin where you lead an army of small creatures to do your bidding. 
-
+		  </p>
 		  
     </div>
 	  
@@ -403,9 +405,10 @@
 	  
 	  <div>
 	  
-	  
+	  <p style="font-size:1.6vw;">
 	  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎I was the primary programmer and designer, and I had two artists and a level designer on my team. In the game, you play as an infant who has been cast into a swamp and is now tasked with delivering as many frogs as possible to the great Lord Broap. Being that you play as a baby, your mobility is extremely limited, unable to do anything except crawl back and forth. The twist is that through enamoring frogs hiding throughout the swamp, you’re able to build bridges to cross gaps, break down obstacles, and weigh down objects the baby would otherwise be too light for. 
-	  
+		  </p>
+		  
 	  </div>
 	  
 	  <br>
@@ -418,8 +421,10 @@
 	  
 	  <div>
 	  
+		  <p style="font-size:1.6vw;">
 	  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ In this, the primary mechanics are frog resource management, and building bridges. This is what the majority of my time working was spent on, as these concepts went through several iterations. Early ideas involved being able to make chains (originally the concept was inspired by the barrel of monkeys toy) and swing about from place to place, and there were frequent switches between ideas of only allowing frogs within a certain radius to be used (vs allowing the player to use all their resources at all times). 
-	  
+		  </p>
+			  
 	  </div>
 	  
     <br>
@@ -442,7 +447,7 @@
 	
 	
   <section id="concept">
-	<p>
+	<p style="font-size:1.6vw;">
 		‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎Unfortunately, time constraints forced some of these expansions on base ideas to the side, as I spent a substantial amount of time getting the hang of using Unreal to code for my first larger project in the engine. 
 </p>
 	
@@ -450,7 +455,7 @@
 	
 	</div>
 	
-<p> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎Given that the development time was so quick and I had such a small team, I feel it is better to showcase this project in the context of a post mortem.<p/>
+<p style="font-size:1.6vw;"> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎Given that the development time was so quick and I had such a small team, I feel it is better to showcase this project in the context of a post mortem.<p/>
 	
 	<!--
 Image of the team
@@ -458,14 +463,14 @@ Image of the team
 	  
 	  <section id = "right"></section>
 	
-	<p>
+	<p style="font-size:1.6vw;">
 	‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎What went right?
 		
 		<br>
 		<br>
 
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎Throughout development communication with my team was consistently clear and productive. At the end of each meeting I delivered my expectations for each member and each one almost always delivered either what I had asked, or enough work that the result could be easily workshopped during the next meeting. We virtually had no bottlenecking, with the possible exception of myself, since my level designer was building the levels around the mechanics that were in progress. 
-</p>
+	  </p>
 	
 	
 	<div class="image2">
@@ -473,7 +478,7 @@ Image of the team
 	</div>
 	
 	
-<p>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎Another thing that went well was that I was very on top of bugs, especially when it came to the core mechanics. Bridge building was especially susceptible to bugs, as my more granular ideas for how the system would work was really difficult to balance. For example, determining the collision for the bridges is done through the frogs that spawn in place themselves, like so:
+<p style="font-size:1.6vw;">‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎Another thing that went well was that I was very on top of bugs, especially when it came to the core mechanics. Bridge building was especially susceptible to bugs, as my more granular ideas for how the system would work was really difficult to balance. For example, determining the collision for the bridges is done through the frogs that spawn in place themselves, like so:
 
   
 </p>
@@ -488,16 +493,17 @@ Image of the team
 	<br>
 	
 	<div>
-	
+	<p style="font-size:1.6vw;">
 	‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎This meant it was very important to make sure the bridge frogs spawned with correct spacing according to one another so the player could cross each gap. 
-	
+		</p>
+		
 	</div>
 	
   </section>
 	
 	<section id="auto-Eng">
 		
-	<p>
+	<p style="font-size:1.6vw;">
 	‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎Making sure the player was never stuck in the middle of a bridge or the bridge correctly spawned between the two goal points was a constant struggle but in the end my system turned out to be extremely consistent. 
 
 	</p>
@@ -508,7 +514,7 @@ Image of the team
 		
 		<br>
 	
-<p>
+<p style="font-size:1.6vw;">
     ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎Additionally, getting the player’s frog minions to stay alongside the player proved to be a significant challenge, as these creatures obviously move around primarily by jumping, rather than flying or walking right behind the player. This meant that in a vacuum frogs easily get stuck leaping into random pits or unable to scale certain heights, and after wandering around for even just a little bit, it would appear as if the player has no more resources. This was another piece that had to be tweaked constantly over the course of the project, changing the speed, jump height, and collision profile of the frogs based on their distance to the player, so that they travel far more unrealistically while off screen but still jump into frame naturally. 
 </p>
 	
@@ -522,8 +528,9 @@ Image of the team
 		
 		<div>
 		
+			<p style="font-size:1.6vw;">
 		‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎Both of these also worked well with the save/checkpoint system included, which properly stored both bridge locations and the status of the player’s frogs, and allowed the game’s state to be accurately unloaded and reloaded upon death or quitting. Since the bulk of the game relied on the success of these things, I was happy to end up with a product whose components all functioned reliably.
-
+			</p>
 		
 		</div>
 	
@@ -536,7 +543,7 @@ Image of the team
 	
 	<section id="wrong">
 	
-	<p>
+	<p style="font-size:1.6vw;">
 		
 	‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎What went wrong?
 		
@@ -559,7 +566,7 @@ Image of the team
 		
 		<br>
 		
-		<p>
+		<p style="font-size:1.6vw;">
 		
 		‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎This leads into our second main issue, which is that while our team had good communication, we had a slightly awkward combination of talent. We had one programmer/systems designer, two artists, and one generalist, and this proved to create a huge weak spot in terms of efficiently creating different kinds of puzzles with all sorts of unique components. Throughout development our generalist was responsible for level sketches, level blockouts, asset placements, particle effects and various menial tasks. Given that he had no previous emphasis on level design and also volunteered to take up plenty of unrelated tasks, level design remained a slow burn of a process.
  
@@ -568,7 +575,7 @@ Image of the team
 			<br>
 			
 	‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎This assortment of talent also led to some lacking visual movement in our environment. While we had no shortage of 3D modelers, the limited visual effects and animation led to the game’s world feeling less lively than it could have been. A swamp by itself is not the most beautiful or exciting place to tell a story, and our inability to breathe additional personality into it made it feel more bland and unappetizing than it could have.
-
+		</p>
 			
 	  <div class="image5">
 		
@@ -578,9 +585,10 @@ Image of the team
 			
 	  <div>
 		
+		  <p style="font-size:1.6vw;">
 		‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎In the vein of having much of the development time spent on the game’s mechanics in their most basic form, I was also disappointed in being forced to scrap more liberal interpretations of our concept, such as being able to create and use chains that the player could swing from or attach objects to.
 
-
+		  </p>
 		  
 		  
 		  
@@ -599,13 +607,14 @@ Image of the team
 	
 	<div>
 			
+		<p style="font-size:1.6vw;">
 		‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎What did we learn/what can we do better?
 		
 		<br>
 		<br>
 
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎Given that this was my first project as a team lead there was a lot I learned about running a game’s development. To start, it became clear towards the end of the game’s development that when working with a small team, having one person who isn’t really honed in on a particular part of the project is closer than not to being a wasted asset. 
-
+		</p>
 
 		
 	</div>
@@ -624,8 +633,9 @@ Image of the team
 	
 <div>
 	
+	<p style="font-size:1.6vw;">
 	‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎Another thing I learned was not to underrate the importance of particle effects and other small flares that bring so much life to otherwise static environments. Only towards the very end of development did I think about asking one of my team members to provide any sound or visual effects, and I think the lack of these small flares really showed in the end product. 
-
+	</p>
 
 	
 	</div>
@@ -640,8 +650,10 @@ Image of the team
 	
 	<div>
 	
+		
+		<p style="font-size:1.6vw;">
 	 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎More broadly, this was my first larger scale project with Unreal Engine and when I look back at each of my blueprints that made up the game’s core I think that inexperience really shows. For example, my methods of bridge construction led to a lot of issues with the player getting stuck in gaps of collision, and instead of attempting to create bridges by spawning frogs meshes with special collision perfectly in sync with one another along a line, it would have been much easier to spawn a mesh with dimensions according to the line between the player and the target. Additionally, this could have opened a much easier door into exploring some of our earlier ideas, such as taking this spawned mesh, grabbing the end of it, and changing its rotation to act as a vine. A few pivots in both leadership and building the base mechanics could have done wonders for bringing Don’t Croak to a higher level. 
-
+		</p>
 	
 	</div>
 	
