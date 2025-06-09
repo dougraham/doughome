@@ -100,6 +100,7 @@ font-weight: 400;
 *,
 *::before,
 *::after {
+	max-width: 100vw;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -207,7 +208,14 @@ a:hover {
 
 /* - Section Title
 --------------------------------------------------------------*/
-h1,
+h1 {
+	 color: var(--black-color);
+  font-family: var(--heading-font);
+  text-transform: uppercase;
+  font-style:italic;
+  font-weight: 700;
+	font-size: 60px;
+}
 h2,
 h3 {
 	 color: var(--black-color);
@@ -254,6 +262,18 @@ h6 {
     animation-fill-mode: both;
     -webkit-animation-fill-mode: both;
   }
+}
+
+@media (max-width: 600px) {
+	
+	h1 {
+		
+		font-size: 32px;
+		
+	}
+	
+	
+	
 }
 
 /* Animate Slide */
@@ -658,6 +678,44 @@ a.nav-link:hover {
 	
 }
 
+.row.g-0 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.0rem;
+}
+
+
+@media (max-width: 900px) {
+ 
+ 
+	
+	.doug-two {
+		
+		left: 00%;
+	}
+	
+	.doug-four {
+		
+		left: 0%;
+		
+		
+	}
+	
+	.mt-3 {
+		
+		left: 0%;
+		
+	}
+	
+	.projects {
+		
+		
+		margin-left: 3%;
+	}
+}
+
+
 .doug-four {
 	/*ckground-image:url("images/miscborder.png");
 	width: 27vw;
@@ -673,10 +731,7 @@ a.nav-link:hover {
 }
 
 .doug-two {
-	/*ckground-image:url("images/hoseborder.png");
-	width: 27vw;
-	height: 20vw;
-	background-size: contain;*/
+	
 }
 
 .doug-one:hover {
@@ -749,7 +804,11 @@ a.nav-link:hover {
     left: 0;
     transform: translateY(-50%);
   }
-
+	body {
+		
+		
+		
+	}
 }
 
 @media screen and (min-width: 580px) {
@@ -759,6 +818,12 @@ a.nav-link:hover {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+}
+
+@media (min-width: 800px) {
+	
+	
+	
 }
 
 /* 4.3 About Section
